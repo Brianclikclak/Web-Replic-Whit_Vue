@@ -1,0 +1,599 @@
+body {
+  background-color: #f7fafd;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 1030;
+  background-color: #f7fafd;
+  box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+}
+
+#sync-logo {
+  width: 107px;
+  height: 36px;
+  margin: 30px;
+}
+
+.top-menu {
+  display: flex;
+  font-size: 14px;
+  list-style: none;
+  margin-right: 100px;
+  text-transform: uppercase;
+  align-items: baseline;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #333333;
+}
+.top-menu li {
+  margin: 30px 15px;
+}
+/*DESPLEGABLE EXTRA*/
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 2rem;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  white-space: nowrap;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+}
+.dropdown-content,
+.top-menu a:hover {
+  color: #ff556e;
+}
+
+/*BOTON DOWNLOAD*/
+
+#button-top-nav {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 1.75rem;
+  border: 0.125rem solid #ff556e;
+  padding: 5px 20px;
+  color: #ff556e;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  background-color: #f7fafd;
+  margin-left: 0.625rem;
+}
+
+#button-top-nav:hover {
+  background-color: #ff556e;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+/*PRIMERA SECCION*/
+
+h1 {
+  font-size: 4rem;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.p-under-h1 {
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #777;
+  width: 40%;
+}
+
+/*BOTONES APPLE Y GOOGLE PLAY*/
+
+.download-buttons-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.download-buttons-div button {
+  display: flex;
+  padding: 5px 20px;
+  border: 2px solid #ff556e;
+  border-radius: 28px;
+  background-color: #ff556e;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+  line-height: 0px;
+  margin: 5px;
+  align-items: center;
+}
+
+.download-buttons-div button:hover {
+  border: 0.125rem solid #ff556e;
+  background-color: transparent;
+  color: #ff556e;
+  text-decoration: none;
+}
+
+.download-logo {
+  display: inline;
+  width: 22px;
+  height: 22px;
+  margin-right: 0.5rem;
+}
+
+.download-logo p {
+  margin: auto;
+  margin-left: 5px;
+}
+
+/*IMAGEN TELEFONO*/
+
+.phone-image {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-image img {
+  width: 929px;
+}
+
+/*ANIMACION DE IMAGEN*/
+
+.phone-image img:hover {
+  transform: scale(1.2);
+  transition: all 0.1s;
+}
+/*-------------------*/
+.container-icons-middle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-icons-middleimg {
+  align-self: center;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.container-icons-middleicon {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  background-color: #ebe7fa;
+  border-radius: 50%;
+}
+
+.container-middle {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.icons-middletext {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*SECCION ORGANIZE*/
+
+.seccion02 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  background-color: #f7fafd;
+  font-family: "Open Sans", sans-serif;
+  max-width: 1140px;
+  margin-left: 350px;
+}
+
+.text-s02 {
+  margin-left: 2.5rem;
+  text-align: left;
+}
+.text-s02 h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.text-s02 p {
+  color: #777;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+.uls02 {
+  color: #777;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+  line-height: 1.75rem;
+  padding: 0;
+  list-style: square;
+  margin-left: 1rem;
+}
+.image-s02 img {
+  width: 497px;
+}
+.button-s02 {
+  display: flex;
+  padding: 25px 40px;
+  border: 2px solid #ff556e;
+  border-radius: 28px;
+  background-color: #ff556e;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+  line-height: 0px;
+  margin: 5px;
+  align-items: center;
+}
+.button-s02:hover {
+  border: 0.125rem solid #ff556e;
+  background-color: transparent;
+  color: #ff556e;
+  text-decoration: none;
+}
+
+/*SECCION CALENDAR*/
+
+.section-calendar {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: #e8eff6;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-calendar {
+  margin-top: 6rem;
+  margin-right: -34.5rem;
+}
+
+.calendar-buttons-div {
+  margin-bottom: 1.125rem;
+}
+.button-inside {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-buttons-div button {
+  border: 1px solid transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0;
+  background-color: #fff;
+  color: #777;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+  align-items: center;
+  stroke: #777;
+}
+
+.calendar-buttons-div button:hover {
+  background-color: #9a67e7;
+  color: #fff;
+}
+
+.calendar-buttons-div button:hover svg {
+  stroke: #fff;
+}
+
+.icon-button-calendar {
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  padding: 0px 5px;
+}
+
+.checkicon {
+  width: 22px;
+  height: 22px;
+  filter: invert(56%) sepia(95%) saturate(370%) hue-rotate(111deg)
+    brightness(96%) contrast(93%);
+  padding: 10px;
+  margin-right: 0.375rem;
+}
+.calendar-text-div {
+  max-width: 50%;
+}
+
+.ul-calendar {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checkicon-box {
+  display: flex;
+  padding: 10px;
+}
+
+.buttons-typ-div {
+  display: flex;
+}
+.terms {
+  padding: 25px 40px;
+  border: 2px solid #ff556e;
+  border-radius: 28px;
+  background-color: #ff556e;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+  line-height: 0px;
+  margin: 5px;
+  align-items: center;
+}
+.terms:hover {
+  border: 0.125rem solid #ff556e;
+  background-color: transparent;
+  color: #ff556e;
+  text-decoration: none;
+}
+
+.privacy {
+  padding: 25px 40px;
+  border: 2px solid black;
+  border-radius: 28px;
+  background-color: #e8eff6;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s;
+  line-height: 0px;
+  margin: 5px;
+  align-items: center;
+}
+.privacy:hover {
+  border: 0.125rem solid #fff;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+.calendar-img-div {
+  margin-left: 150px;
+}
+
+.calendar {
+  width: 500px;
+}
+
+/*REVIEWS*/
+
+.reviews-section {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  background-color: #f7fafd;
+  text-align: center;
+  color: #777;
+}
+
+.reviews-section h2 {
+  margin-bottom: 3.25rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #333;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stars {
+  filter: invert(68%) sepia(98%) saturate(885%) hue-rotate(348deg)
+    brightness(100%) contrast(102%);
+  width: 140px;
+}
+
+.review {
+  margin-bottom: 0.625rem;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  color: #777;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.strong {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.review-article {
+  margin-bottom: 4.75rem;
+  padding: 0;
+  width: 21rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  display: inline-block;
+}
+
+.images-container {
+  margin-bottom: 5.25rem;
+  padding: 2.5rem 2rem 0 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.brand-images {
+  margin: 20px;
+}
+
+/*USERS COUNTER SECTION*/
+
+.users-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: #e8eff6;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.containers {
+  align-items: center;
+  margin-right: 2.375rem;
+  margin-left: 2.375rem;
+  width: 8.25rem;
+}
+
+.users-images {
+  width: 60px;
+  height: 50px;
+}
+.span {
+  color: #333;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.875rem;
+}
+
+/*BOTTOM-PHONE-SECTION*/
+
+.bottom-phone-section {
+  padding-top: 8rem;
+
+  background-color: #f7fafd;
+  text-align: center;
+}
+
+.bottom-phone-divimage {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-phone-divimage img {
+  width: 929px;
+}
+
+.p-div {
+  width: 51rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #777;
+}
+
+/*FOOTER*/
+
+.footer1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #c8d4d6;
+  background-color: #f7fafd;
+  color: #777;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+.footer-div ul {
+  list-style: none;
+  text-align: left;
+}
+
+.div-icons ul {
+  display: flex;
+}
+
+.div-icons ul li {
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  background-color: #777;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.footer-svg {
+  width: 14px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #777;
+}
+
+.footer-icon {
+  padding-left: 10px;
+  padding-top: 3px;
+  width: 30px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p {
+  color: #999;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}

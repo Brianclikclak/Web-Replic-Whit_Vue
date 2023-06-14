@@ -2,7 +2,8 @@
   import NavBar from './components/NavBar.vue';
   import AppIntro from './components/AppIntro.vue';
   import DescriptionSection from './components/DescriptionSection.vue'
-  import Organize from './components/Organize.vue'
+  import OrganizeSection from './components/OrganizeSection.vue'
+  import UserTestimonials from './components/UserTestimonials.vue';
   
 </script>
 
@@ -10,7 +11,8 @@
   <NavBar/>
   <AppIntro />
   <DescriptionSection/>
-  <Organize/> 
+  <OrganizeSection/>
+  <UserTestimonials/> 
   
   
 </template>

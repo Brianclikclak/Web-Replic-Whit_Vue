@@ -1,5 +1,4 @@
 
-
 <template>
     <section class="seccion02">
         <div class="image-s02">

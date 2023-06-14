@@ -4,6 +4,7 @@
   import DescriptionSection from './components/DescriptionSection.vue'
   import OrganizeSection from './components/OrganizeSection.vue'
   import UserTestimonials from './components/UserTestimonials.vue';
+  import FormLogin from './components/FormLogin.vue';
   
 </script>
 
@@ -14,6 +15,7 @@
   <OrganizeSection/>
   <UserTestimonials/> 
   
+  <FormLogin/>
   
 </template>
 <style></style>

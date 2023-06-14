@@ -1,11 +1,11 @@
 <script setup>
-import logo from './icons/logo.vue';
+import logoSync from './icons/logoSync.vue';
 </script>
 
 <template>
     <div class="nav-landing">
         <div class="logo">
-            <a href="#"><logo/></a>
+            <a href="#"><logoSync/></a>
         </div>
         <nav>
             <ul class="top-menu">

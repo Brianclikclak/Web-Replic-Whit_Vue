@@ -19,8 +19,7 @@ import logoSync from './icons/logoSync.vue';
                         <a href="#">Privacy Policy</a>
                     </div>
                 </li>
-                <li><a href="https://factoriaf5.org/"><button class="button-top-nav">Download</button></a></li>
-                <li><a href="#"><button class="button-top-nav">Login</button></a></li>
+                <li><a href="views/LoginView.vue"><button class="button-top-nav">Login</button></a></li>
             </ul>
         </nav>
     </div>

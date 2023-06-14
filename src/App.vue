@@ -6,6 +6,7 @@
   import UserTestimonials from './components/UserTestimonials.vue';
   import SecondMobile from './components/SecondMobile.vue';
   import FooterPage from './components/FooterPage.vue';
+  import FormLogin from './components/FormLogin.vue';
   
 </script>
 
@@ -17,7 +18,7 @@
   <UserTestimonials/> 
   <SecondMobile/>
   <FooterPage/>
-  
+  <FormLogin/>
   
 </template>
 <style></style>

@@ -1,11 +1,12 @@
 <script setup>
+import ButtonLogin from './ButtonLogin.vue';
 import logoSync from './icons/logoSync.vue';
 </script>
 
 <template>
     <div class="nav-landing">
         <div class="logo">
-            <a href="#"><logoSync/></a>
+            <a href="/"><logoSync/></a>
         </div>
         <nav>
             <ul class="top-menu">
@@ -19,7 +20,8 @@ import logoSync from './icons/logoSync.vue';
                         <a href="#">Privacy Policy</a>
                     </div>
                 </li>
-                <li><a href="views/LoginView.vue"><button class="button-top-nav">Login</button></a></li>
+                <li><ButtonLogin/></li>
+               
             </ul>
         </nav>
     </div>
@@ -53,10 +55,11 @@ import logoSync from './icons/logoSync.vue';
 }
 
 .top-menu a {
-  text-decoration: none;
+  
   color: #333333;
 }
 .top-menu li {
+  text-decoration: none;
   margin: 30px 15px;
 }
 
@@ -85,25 +88,8 @@ import logoSync from './icons/logoSync.vue';
   color: #ff556e;
 }
 
-.button-top-nav {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 1.75rem;
-  border: 0.125rem solid #ff556e;
-  padding: 5px 20px;
-  color: #ff556e;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  background-color: #f7fafd;
-  margin-left: 0.625rem;
-}
-
-.button-top-nav:hover {
-  background-color: #ff556e;
-  color: #fff;
-  transition: all 0.2s;
+li a{
+  text-decoration: none;
 }
 
 </style>

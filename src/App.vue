@@ -1,24 +1,14 @@
 <script setup>
-  import NavBar from './components/NavBar.vue';
-  import AppIntro from './components/AppIntro.vue';
-  import DescriptionSection from './components/DescriptionSection.vue'
-  import OrganizeSection from './components/OrganizeSection.vue'
-  import UserTestimonials from './components/UserTestimonials.vue';
-  import SecondMobile from './components/SecondMobile.vue';
-  import FooterPage from './components/FooterPage.vue';
-  import FormLogin from './components/FormLogin.vue';
-  
+
+import {RouterLink, RouterView} from "vue-router";
 </script>
 
 <template>
-  <NavBar/>
-  <AppIntro />
-  <DescriptionSection/>
-  <OrganizeSection/>
-  <UserTestimonials/> 
-  <SecondMobile/>
-  <FooterPage/>
-  <FormLogin/>
+   
+  
+  <RouterLink to="/"></RouterLink>
+  <RouterLink to="/login"></RouterLink>
+  <RouterView/>
   
 
 
@@ -34,9 +24,12 @@
 
 
 </template>
+<<<<<<< HEAD
 
 <style></style>
 
+=======
+>>>>>>> 4ab82825f5a764657a35655eaf770742e611559f
 
 
 

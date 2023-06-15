@@ -1,5 +1,22 @@
-<script>
-
+<script >
+    export default{
+        data() {
+            return {
+                inputType: "password",
+                inputTypeIcon: "password",
+                showPassword: "Show Password",
+                hidePassword: "Hide Password",
+            }
+        },
+        methods: {
+            ToggleInput() {
+                this.inputType = this.inputType === "password" ? "text" : "password";
+            },
+            ToggleInputIcon() {
+                this.inputTypeIcon = this.inputType === "password" ? "text" : "password";
+            }
+        },
+    }
 </script>
 
 <template>
@@ -8,9 +25,12 @@
         <form>
             <input type="text" name="userName" placeholder="Username">
             <br><br>
-            <input type="text" name="password" placeholder="Password">
+            <input :type="inputType" name="password" placeholder="Password">
             <br>
-            <button>Mostrar Contraseña</button>
+            <button @click.prevent="ToggleInput" class="showHidePassword">
+                <span v-if="inputType == 'password'">{{ showPassword }}</span>
+                <span v-else>{{ hidePassword }}</span>
+            </button>
             <br><br><br><br>
             <input type="submit" value="INGRESAR">
         </form>

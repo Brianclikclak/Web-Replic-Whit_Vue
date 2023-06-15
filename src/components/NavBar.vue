@@ -20,8 +20,7 @@ import logoSync from './icons/logoSync.vue';
                         <a href="#">Privacy Policy</a>
                     </div>
                 </li>
-                <li><ButtonLogin/></li>
-               
+                <li><ButtonLogin/></li>   
             </ul>
         </nav>
     </div>
@@ -59,7 +58,7 @@ import logoSync from './icons/logoSync.vue';
   color: #333333;
 }
 .top-menu li {
-  text-decoration: none;
+  
   margin: 30px 15px;
 }
 
@@ -87,9 +86,4 @@ import logoSync from './icons/logoSync.vue';
 .top-menu a:hover {
   color: #ff556e;
 }
-
-li a{
-  text-decoration: none;
-}
-
 </style>

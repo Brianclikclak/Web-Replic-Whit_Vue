@@ -170,7 +170,6 @@
   line-height: 1.75rem;
   font-size: 1rem;
   width: 100%;
-  
   margin-right: auto;
   margin-left: auto;
 }

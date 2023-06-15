@@ -26,5 +26,4 @@
   transition: all 0.2s;
 }
 
-
 </style>

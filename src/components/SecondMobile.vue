@@ -18,7 +18,6 @@
 <style scoped>
 .bottom-phone-section {
   padding-top: 8rem;
-
   background-color: #f7fafd;
   text-align: center;
 }

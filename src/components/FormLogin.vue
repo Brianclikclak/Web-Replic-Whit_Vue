@@ -18,6 +18,7 @@
 </template>
 
 <style>
+
 .container{
     background-color: #e8eff6;
     display: flex;
@@ -37,6 +38,7 @@ form{
     width: 500px;
     height: 250px;
 }
+
 input{
   width: 75%;
   margin-bottom: 15px;
@@ -45,6 +47,7 @@ input{
   padding: 15px 20px;
   font-size: .9rem;
 }
+
 [type="submit"]{
   background: #ff556e;
   border-radius: 30px;

@@ -103,10 +103,6 @@ h5 {
   fill: #777;
 }
 
-.footer-icon {
-  
-}
-
 .copyright {
   display: flex;
   justify-content: center;

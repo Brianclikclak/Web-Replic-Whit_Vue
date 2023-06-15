@@ -7,6 +7,7 @@
   import SecondMobile from './components/SecondMobile.vue';
   import FooterPage from './components/FooterPage.vue';
   import FormLogin from './components/FormLogin.vue';
+  import Calendar from './components/Calendar.vue';
   
 </script>
 
@@ -15,6 +16,7 @@
   <AppIntro />
   <DescriptionSection/>
   <OrganizeSection/>
+  <Calendar/>
   <UserTestimonials/> 
   <SecondMobile/>
   <FooterPage/>
